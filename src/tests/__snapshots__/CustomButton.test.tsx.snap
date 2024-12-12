@@ -1,0 +1,49 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CustomButton > should match the snapshot with default props 1`] = `
+<DocumentFragment>
+  <button
+    class="items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:opacity-80 h-9 px-4 py-2 flex gap-2"
+  >
+    <span
+      class="flex-1"
+    >
+      Click me
+    </span>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`CustomButton > should match the snapshot with different variant and size 1`] = `
+<DocumentFragment>
+  <button
+    class="items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 rounded-md px-8 flex gap-2"
+  >
+    <span
+      class="flex-1"
+    >
+      Click me
+    </span>
+    <i>
+      icon
+    </i>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`CustomButton > should match the snapshot with icon 1`] = `
+<DocumentFragment>
+  <button
+    class="items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:opacity-80 h-9 px-4 py-2 gap-2 flex flex-row-reverse"
+  >
+    <span
+      class="flex-1"
+    >
+      Click me
+    </span>
+    <i>
+      icon
+    </i>
+  </button>
+</DocumentFragment>
+`;

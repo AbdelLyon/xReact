@@ -1,0 +1,138 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Select > should match the snapshot with an error 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="select"
+  >
+    <label
+      class="text-start"
+    >
+      Select with error
+    </label>
+    <div
+      aria-controls="radix-:r2:"
+      aria-expanded="false"
+      aria-haspopup="dialog"
+      class="flex h-11 cursor-pointer items-center justify-between rounded-md border bg-white dark:bg-background px-3 relative border-error w-full"
+      data-state="closed"
+      style="width: 100%;"
+      type="button"
+    >
+      <p
+        class="truncate text-[13px] opacity-50"
+      >
+        Select...
+      </p>
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-chevron-down absolute right-3 shrink-0 text-error opacity-100"
+        data-icon="chevron-down"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <p
+      class="text-error mt-1 text-start"
+    >
+      Something went wrong
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Select > should match the snapshot with default props 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="select"
+  >
+    <label
+      class="text-start"
+    >
+      Select an option
+    </label>
+    <div
+      aria-controls="radix-:r0:"
+      aria-expanded="false"
+      aria-haspopup="dialog"
+      class="flex h-11 cursor-pointer items-center justify-between rounded-md border border-border bg-white dark:bg-background px-3 relative w-full"
+      data-state="closed"
+      style="width: 100%;"
+      type="button"
+    >
+      <p
+        class="truncate text-[13px] opacity-50"
+      >
+        Select...
+      </p>
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-chevron-down absolute right-3 shrink-0 opacity-50"
+        data-icon="chevron-down"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Select > should match the snapshot with search enabled and loading 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="select"
+  >
+    <label
+      class="text-start"
+    >
+      Searchable Select
+    </label>
+    <div
+      aria-controls="radix-:r1:"
+      aria-expanded="false"
+      aria-haspopup="dialog"
+      class="flex h-11 cursor-pointer items-center justify-between rounded-md border border-border bg-white dark:bg-background px-3 relative w-full"
+      data-state="closed"
+      style="width: 100%;"
+      type="button"
+    >
+      <p
+        class="truncate text-[13px] opacity-50"
+      >
+        Search...
+      </p>
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-chevron-down absolute right-3 shrink-0 opacity-50"
+        data-icon="chevron-down"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 512 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>
+</DocumentFragment>
+`;

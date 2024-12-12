@@ -1,0 +1,117 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Tooltip Component > renders correctly with custom props 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="tooltip-provider"
+  >
+    <div
+      data-testid="tooltip-root"
+    >
+      <div
+        class="custom-trigger"
+        data-testid="tooltip-trigger"
+      >
+        <span>
+          Custom trigger
+        </span>
+      </div>
+      <div
+        align="start"
+        class="z-50 custom-content"
+        data-testid="tooltip-content"
+        side="right"
+        sideoffset="10"
+      >
+        <div>
+          Custom content
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Component > renders correctly with default props 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="tooltip-provider"
+  >
+    <div
+      data-testid="tooltip-root"
+    >
+      <div
+        data-testid="tooltip-trigger"
+      >
+        <button>
+          Hover me
+        </button>
+      </div>
+      <div
+        align="center"
+        class="z-50"
+        data-testid="tooltip-content"
+        side="top"
+      >
+        This is a tooltip
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Component > renders correctly with open and onOpenChange props 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="tooltip-provider"
+  >
+    <div
+      data-testid="tooltip-root"
+    >
+      <div
+        data-testid="tooltip-trigger"
+      >
+        <button>
+          Controlled tooltip
+        </button>
+      </div>
+      <div
+        align="center"
+        class="z-50"
+        data-testid="tooltip-content"
+        side="top"
+      >
+        Controlled content
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Tooltip Component > renders correctly with triggerAsChild prop 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="tooltip-provider"
+  >
+    <div
+      data-testid="tooltip-root"
+    >
+      <div
+        data-testid="tooltip-trigger"
+      >
+        <button>
+          Child trigger
+        </button>
+      </div>
+      <div
+        align="center"
+        class="z-50"
+        data-testid="tooltip-content"
+        side="top"
+      >
+        Child content
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

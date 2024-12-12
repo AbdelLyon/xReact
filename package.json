@@ -1,0 +1,204 @@
+{
+  "name": "@els_xefi/x-react",
+  "version": "1.0.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "description": "Xefi React Package",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbdelLyon/xReact.git"
+  },
+  "author": "DailyApps",
+  "license": "MIT",
+  "exports": {
+    "./style.css": "./dist/style.css",
+    "./providers": {
+      "import": "./dist/providers/@els_xefi/x-react.es.js",
+      "types": "./dist/providers/index.d.ts"
+    },
+    "./button": {
+      "import": "./dist/button/@els_xefi/x-react.es.js",
+      "types": "./dist/button/index.d.ts"
+    },
+    "./utils": {
+      "import": "./dist/utils/@els_xefi/x-react.es.js",
+      "types": "./dist/utils/index.d.ts"
+    },
+    "./theme": {
+      "import": "./dist/theme/@els_xefi/x-react.es.js",
+      "types": "./dist/theme/index.d.ts"
+    },
+    "./hooks": {
+      "import": "./dist/hooks/@els_xefi/x-react.es.js",
+      "types": "./dist/hooks/index.d.ts"
+    },
+    "./card": {
+      "import": "./dist/card/@els_xefi/x-react.es.js",
+      "types": "./dist/card/index.d.ts"
+    },
+    "./typography": {
+      "import": "./dist/typography/@els_xefi/x-react.es.js",
+      "types": "./dist/typography/index.d.ts"
+    },
+    "./select": {
+      "import": "./dist/select/@els_xefi/x-react.es.js",
+      "types": "./dist/select/index.d.ts"
+    },
+    "./input": {
+      "import": "./dist/input/@els_xefi/x-react.es.js",
+      "types": "./dist/input/index.d.ts"
+    },
+    "./chart": {
+      "import": "./dist/chart/@els_xefi/x-react.es.js",
+      "types": "./dist/chart/index.d.ts"
+    },
+    "./date": {
+      "import": "./dist/date/@els_xefi/x-react.es.js",
+      "types": "./dist/date/index.d.ts"
+    },
+    "./popover": {
+      "import": "./dist/popover/@els_xefi/x-react.es.js",
+      "types": "./dist/popover/index.d.ts"
+    },
+    "./layout": {
+      "import": "./dist/layout/@els_xefi/x-react.es.js",
+      "types": "./dist/layout/index.d.ts"
+    },
+    "./sheet": {
+      "import": "./dist/sheet/@els_xefi/x-react.es.js",
+      "types": "./dist/sheet/index.d.ts"
+    },
+    "./accordion": {
+      "import": "./dist/accordion/@els_xefi/x-react.es.js",
+      "types": "./dist/accordion/index.d.ts"
+    },
+    "./modal": {
+      "import": "./dist/modal/@els_xefi/x-react.es.js",
+      "types": "./dist/modal/index.d.ts"
+    },
+    "./datagrid": {
+      "import": "./dist/datagrid/@els_xefi/x-react.es.js",
+      "types": "./dist/datagrid/index.d.ts"
+    },
+    "./toast": {
+      "import": "./dist/toast/@els_xefi/x-react.es.js",
+      "types": "./dist/toast/index.d.ts"
+    },
+    "./tabs": {
+      "import": "./dist/tabs/@els_xefi/x-react.es.js",
+      "types": "./dist/tabs/index.d.ts"
+    },
+    "./tooltip": {
+      "import": "./dist/tooltip/@els_xefi/x-react.es.js",
+      "types": "./dist/tooltip/index.d.ts"
+    },
+    "./progressbar": {
+      "import": "./dist/progressbar/@els_xefi/x-react.es.js",
+      "types": "./dist/progressbar/index.d.ts"
+    },
+    "./slider": {
+      "import": "./dist/slider/@els_xefi/x-react.es.js",
+      "types": "./dist/slider/index.d.ts"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*/index.d.ts"
+      ]
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.1",
+    "@fortawesome/free-solid-svg-icons": "6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@nextui-org/react": "^2.6.8",
+    "@radix-ui/react-accordion": "^1.2.1",
+    "@radix-ui/react-alert-dialog": "^1.1.2",
+    "@radix-ui/react-checkbox": "^1.1.2",
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-popover": "^1.1.2",
+    "@radix-ui/react-progress": "^1.1.0",
+    "@radix-ui/react-radio-group": "^1.2.1",
+    "@radix-ui/react-select": "^2.1.2",
+    "@radix-ui/react-slider": "^1.2.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-switch": "^1.1.1",
+    "@radix-ui/react-tabs": "^1.1.1",
+    "@radix-ui/react-toast": "^1.2.2",
+    "@radix-ui/react-tooltip": "^1.1.4",
+    "@react-types/shared": "^3.26.0",
+    "@tabler/icons-react": "^3.24.0",
+    "@tanstack/react-query": "^5.62.7",
+    "@tanstack/react-query-devtools": "5.59.14",
+    "@vitejs/plugin-react-swc": "^3.7.2",
+    "autoprefixer": "^10.4.20",
+    "chart.js": "^4.4.7",
+    "check-password-strength": "^2.0.10",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "2.1.1",
+    "cmdk": "^1.0.4",
+    "date-fns": "^3.6.0",
+    "dlx": "^0.2.1",
+    "from": "^0.1.7",
+    "import": "^0.0.6",
+    "input-otp": "^1.4.1",
+    "lucide-react": "^0.451.0",
+    "next-themes": "^0.3.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-day-picker": "8.10.1",
+    "react-intersection-observer": "^9.13.1",
+    "shadcn-ui": "^0.9.4",
+    "tailwind-merge": "^2.5.5",
+    "tailwind-variants": "0.2.1",
+    "tailwindcss": "3.4.10",
+    "vaul": "^0.9.9",
+    "vite-plugin-dts": "^4.3.0",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "devDependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "18.3.5",
+    "@types/react-dom": "18.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.18.0",
+    "@typescript-eslint/parser": "^8.18.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "eslint-plugin-tailwindcss": "^3.17.5",
+    "eslint-plugin-unused-imports": "^3.2.0",
+    "jsdom": "^25.0.1",
+    "postcss": "^8.4.49",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11",
+    "vite-plugin-dts-bundle-generator": "^2.0.6",
+    "vite-tsconfig-paths": "^4.3.2",
+    "vitest": "^2.1.8"
+  }
+}

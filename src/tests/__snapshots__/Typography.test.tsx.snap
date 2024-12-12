@@ -1,0 +1,39 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Blockquote component > should match snapshot with given className 1`] = `
+<DocumentFragment>
+  <blockquote
+    class="mt-6 border-l-2 pl-6 italic extra-class"
+  >
+    "Quote"
+  </blockquote>
+</DocumentFragment>
+`;
+
+exports[`InlineCode component > should match snapshot with given className 1`] = `
+<DocumentFragment>
+  <code
+    class="bg-muted relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold code-extra"
+  >
+    code
+  </code>
+</DocumentFragment>
+`;
+
+exports[`Title component > should match snapshot when isLoading is false 1`] = `
+<DocumentFragment>
+  <h1
+    class="text-xl scroll-m-20 font-bold tracking-tight"
+  >
+    Test Title
+  </h1>
+</DocumentFragment>
+`;
+
+exports[`Title component > should match snapshot when isLoading is true 1`] = `
+<DocumentFragment>
+  <div>
+    Loading...
+  </div>
+</DocumentFragment>
+`;

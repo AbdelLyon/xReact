@@ -1,0 +1,67 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CardImage > should match snapshot when forwarded ref is used 1`] = `
+<DocumentFragment>
+  <div
+    class="relative overflow-hidden transition-transform duration-300 ease-in-out transform"
+    data-testid="card-image"
+    style="height: 100px; width: 150px;"
+  >
+    Children
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CardImage > should match snapshot when rendering children 1`] = `
+<DocumentFragment>
+  <div
+    class="relative overflow-hidden transition-transform duration-300 ease-in-out transform"
+    data-testid="card-image"
+    style="height: 100px; width: 150px;"
+  >
+    Test Child
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CardImage > should match snapshot with custom classes 1`] = `
+<DocumentFragment>
+  <div
+    class="relative overflow-hidden transition-transform duration-300 ease-in-out transform custom-class"
+    data-testid="card-image"
+    style="height: 100px; width: 150px;"
+  >
+    Children
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CustomCard > should match snapshot when rendering children 1`] = `
+<DocumentFragment>
+  <div
+    class="border-border bg-white dark:bg-background text-card-foreground shadow-sm relative flex flex-col border rounded-sm transition-transform duration-300 ease-in-out"
+    data-testid="custom-card"
+  >
+    Test Child
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CustomCard > should match snapshot with clickable styles 1`] = `
+<DocumentFragment>
+  <div
+    class="border-border bg-white dark:bg-background text-card-foreground shadow-sm relative flex flex-col border rounded-sm transition-transform duration-300 ease-in-out cursor-pointer hover:shadow-lg"
+    data-testid="custom-card"
+  />
+</DocumentFragment>
+`;
+
+exports[`CustomCard > should match snapshot with width and height styles 1`] = `
+<DocumentFragment>
+  <div
+    class="border-border bg-white dark:bg-background text-card-foreground shadow-sm relative flex flex-col border rounded-sm transition-transform duration-300 ease-in-out"
+    data-testid="custom-card"
+    style="width: 200px; height: 100px;"
+  />
+</DocumentFragment>
+`;

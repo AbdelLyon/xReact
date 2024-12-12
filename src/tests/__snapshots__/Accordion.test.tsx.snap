@@ -1,0 +1,217 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Accordion Component > renders correctly with custom renderHeader 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class="w-full rounded-md bg-card-light dark:bg-card"
+      data-orientation="vertical"
+    >
+      <div
+        class="border border-border rounded-md"
+        data-orientation="vertical"
+        data-state="closed"
+      >
+        <h3
+          class="relative flex"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:r5:"
+            aria-expanded="false"
+            class="flex flex-1 items-center justify-between py-4 font-medium transition-all [&[data-state=open]>svg]:rotate-180 pr-3 pl-1"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            id="radix-:r4:"
+            type="button"
+          >
+            <div>
+              <h3>
+                <span>
+                  Item 1
+                </span>
+              </h3>
+              <p>
+                <span>
+                  Description 1
+                </span>
+              </p>
+            </div>
+            <svg
+              class="lucide lucide-chevron-down -mt-5 size-4 shrink-0 transition-transform duration-200"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m6 9 6 6 6-6"
+              />
+            </svg>
+          </button>
+        </h3>
+        <div
+          aria-labelledby="radix-:r4:"
+          class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:r5:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion Component > renders correctly with data and matches snapshot 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class="w-full rounded-md bg-card-light dark:bg-card"
+      data-orientation="vertical"
+    >
+      <div
+        class="border border-border rounded-md"
+        data-orientation="vertical"
+        data-state="closed"
+      >
+        <h3
+          class="relative flex"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:r1:"
+            aria-expanded="false"
+            class="flex flex-1 items-center justify-between py-4 font-medium transition-all [&[data-state=open]>svg]:rotate-180 pr-3 pl-1"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            id="radix-:r0:"
+            type="button"
+          >
+            <span>
+              Item 1
+            </span>
+            <div>
+              <span>
+                Description 1
+              </span>
+            </div>
+            <svg
+              class="lucide lucide-chevron-down -mt-5 size-4 shrink-0 transition-transform duration-200"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m6 9 6 6 6-6"
+              />
+            </svg>
+          </button>
+        </h3>
+        <div
+          aria-labelledby="radix-:r0:"
+          class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:r1:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+    </div>
+    <div
+      class="w-full rounded-md bg-card-light dark:bg-card"
+      data-orientation="vertical"
+    >
+      <div
+        class="border border-border rounded-md"
+        data-orientation="vertical"
+        data-state="closed"
+      >
+        <h3
+          class="relative flex"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:r3:"
+            aria-expanded="false"
+            class="flex flex-1 items-center justify-between py-4 font-medium transition-all [&[data-state=open]>svg]:rotate-180 pr-3 pl-1"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            id="radix-:r2:"
+            type="button"
+          >
+            <span>
+              Item 2
+            </span>
+            <div>
+              <span>
+                Description 2
+              </span>
+            </div>
+            <svg
+              class="lucide lucide-chevron-down -mt-5 size-4 shrink-0 transition-transform duration-200"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m6 9 6 6 6-6"
+              />
+            </svg>
+          </button>
+        </h3>
+        <div
+          aria-labelledby="radix-:r2:"
+          class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:r3:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion Component > renders without data and matches snapshot 1`] = `
+<div>
+  <div
+    class=""
+  />
+</div>
+`;

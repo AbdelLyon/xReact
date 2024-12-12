@@ -1,0 +1,268 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Layout > matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class=" min-h-screen w-full overflow-x-auto"
+  >
+    <header
+      class="fixed top-0 z-40 flex w-full flex-col border-b border-border bg-white dark:bg-sidebar shadow-lg dark:shadow-none px-4 transition-all duration-300 ease-in-out h-16 header-class"
+    >
+      <div
+        class="flex h-16 w-full items-center justify-between"
+      >
+        <div
+          class="border-border w-[275px] justify-center border-r hidden lg:block"
+        >
+          <div>
+            App Logo
+          </div>
+        </div>
+        <button
+          class="rounded-md border border-border bg-white px-2.5 py-2 dark:bg-background sm:hidden"
+        >
+          <svg
+            class="lucide lucide-align-left size-5 text-text"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="21"
+              x2="3"
+              y1="6"
+              y2="6"
+            />
+            <line
+              x1="15"
+              x2="3"
+              y1="12"
+              y2="12"
+            />
+            <line
+              x1="17"
+              x2="3"
+              y1="18"
+              y2="18"
+            />
+          </svg>
+        </button>
+        <div
+          class="flex w-full flex-1 items-center justify-end text-black lg:pl-8"
+        >
+          <h1
+            class="hidden w-full cursor-default select-none text-2xl font-semibold dark:text-white sm:block"
+          >
+            My App
+          </h1>
+          <nav
+            class="flex items-center justify-end gap-4 rounded-md border border-border bg-white dark:bg-background"
+          >
+            <button
+              class="cursor-pointer transition-all hover:opacity-80 dark:text-white"
+            >
+              <svg
+                class="lucide lucide-sun hidden dark:block"
+                fill="none"
+                height="18"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="4"
+                />
+                <path
+                  d="M12 2v2"
+                />
+                <path
+                  d="M12 20v2"
+                />
+                <path
+                  d="m4.93 4.93 1.41 1.41"
+                />
+                <path
+                  d="m17.66 17.66 1.41 1.41"
+                />
+                <path
+                  d="M2 12h2"
+                />
+                <path
+                  d="M20 12h2"
+                />
+                <path
+                  d="m6.34 17.66-1.41 1.41"
+                />
+                <path
+                  d="m19.07 4.93-1.41 1.41"
+                />
+              </svg>
+              <svg
+                class="lucide lucide-moon dark:hidden"
+                fill="none"
+                height="18"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"
+                />
+              </svg>
+            </button>
+            <div
+              class="h-10 w-[2px] bg-border"
+            />
+            <div
+              aria-controls="radix-:r0:"
+              aria-expanded="false"
+              aria-haspopup="dialog"
+              class="border border-border rounded-md border-none"
+              data-state="closed"
+              type="button"
+            >
+              <div
+                class="relative hidden cursor-pointer items-center gap-2 rounded-md px-3 py-2 font-medium dark:text-white lg:flex"
+              >
+                <svg
+                  class="lucide lucide-user size-5"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                  />
+                  <circle
+                    cx="12"
+                    cy="7"
+                    r="4"
+                  />
+                </svg>
+                <p
+                  class="truncate"
+                />
+              </div>
+              <div
+                class="flex size-10 cursor-pointer items-center justify-center rounded-md dark:bg-background dark:text-white lg:hidden"
+              >
+                <svg
+                  class="lucide lucide-user size-5"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                  />
+                  <circle
+                    cx="12"
+                    cy="7"
+                    r="4"
+                  />
+                </svg>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-2 overflow-hidden transition-all duration-300 ease-in-out opacity-0 max-h-0"
+      >
+        <div
+          class="w-full"
+        />
+      </div>
+    </header>
+    <div
+      class="relative z-20 flex w-full"
+    >
+      <aside
+        class="border-border bg-sidebar fixed inset-y-0 z-10 mt-16 min-h-screen w-16 px-1.5 flex-col lg:px-3 border-r transition-all duration-300 ease-in-out lg:w-[290px] lg:min-w-[290px] lg:mt-0 md:sticky hidden sm:flex layout-class"
+      >
+        <div
+          class="sticky left-2 top-16 lg:fixed lg:w-[270px]"
+        >
+          <nav
+            class="mt-4 flex w-full flex-col items-center justify-center gap-4"
+          >
+            Menu
+            <div
+              class="w-full"
+            >
+              <div
+                class="flex items-center justify-center p-3 cursor-pointer my-2 menu-transition transition-all duration-300 ease-in-out rounded-md line-transition w-full text-white lg:justify-start lg:gap-4 hover:bg-sidebarHoverLink"
+              >
+                <a
+                  class="flex items-center w-full"
+                  href="/dashboard"
+                >
+                  <div
+                    class="flex items-center gap-2"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-house size-5"
+                      data-icon="house"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      viewBox="0 0 576 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <span
+                      class="sr-only lg:not-sr-only"
+                    >
+                      Dashboard
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </aside>
+      <main
+        class="mx-auto w-full mt-20 mb-4 sm:ml-16 md:ml-0 layout-class"
+      >
+        <div>
+          Content goes here
+        </div>
+      </main>
+    </div>
+  </div>
+</DocumentFragment>
+`;

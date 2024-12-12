@@ -1,0 +1,752 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`DataGrid > renders correctly with basic props 1`] = `
+<div>
+  <div
+    class="bg-white dark:bg-background border border-border relative rounded-t-md shadow-lg overflow-auto "
+  >
+    <div
+      data-testid="accordion"
+    >
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="flex h-14 w-full items-center"
+        >
+          <button
+            aria-checked="false"
+            class="peer size-[18px] shrink-0 rounded-sm border border-border ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground mr-2 dark:border-white/5"
+            data-state="unchecked"
+            role="checkbox"
+            type="button"
+            value="on"
+          />
+          <button
+            class="flex-1 font-semibold text-left flex items-center justify-between gap-2 "
+          >
+            <div
+              class="flex items-center gap-1"
+            >
+              <p
+                class="grow opacity-80"
+              >
+                ID
+              </p>
+            </div>
+          </button>
+          <button
+            class="flex-1 font-semibold text-left flex items-center justify-between gap-2 "
+          >
+            <div
+              class="flex items-center gap-1"
+            >
+              <p
+                class="grow opacity-80"
+              >
+                Name
+              </p>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="relative flex h-14 w-full items-center px-4"
+        >
+          <button
+            aria-checked="false"
+            class="peer size-[18px] shrink-0 rounded-sm border border-border ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground mr-2"
+            data-state="unchecked"
+            role="checkbox"
+            type="button"
+            value="on"
+          />
+          <div
+            class="flex-1 text-left "
+          >
+            1
+          </div>
+          <div
+            class="flex-1 text-left "
+          >
+            John Doe
+          </div>
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="relative flex h-14 w-full items-center px-4"
+        >
+          <button
+            aria-checked="false"
+            class="peer size-[18px] shrink-0 rounded-sm border border-border ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground mr-2"
+            data-state="unchecked"
+            role="checkbox"
+            type="button"
+            value="on"
+          />
+          <div
+            class="flex-1 text-left "
+          >
+            2
+          </div>
+          <div
+            class="flex-1 text-left "
+          >
+            Jane Doe
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DataGrid > renders loading state correctly 1`] = `
+<div>
+  <div
+    class="bg-white dark:bg-background border border-border relative rounded-t-md shadow-lg overflow-auto "
+  >
+    <div
+      data-testid="accordion"
+    >
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="flex h-14 w-full items-center"
+        >
+          <button
+            aria-checked="false"
+            class="peer size-[18px] shrink-0 rounded-sm border border-border ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground mr-2 dark:border-white/5"
+            data-state="unchecked"
+            role="checkbox"
+            type="button"
+            value="on"
+          />
+          <button
+            class="flex-1 font-semibold text-left flex items-center justify-between gap-2 "
+          >
+            <div
+              class="flex items-center gap-1"
+            >
+              <p
+                class="grow opacity-80"
+              >
+                ID
+              </p>
+            </div>
+          </button>
+          <button
+            class="flex-1 font-semibold text-left flex items-center justify-between gap-2 "
+          >
+            <div
+              class="flex items-center gap-1"
+            >
+              <p
+                class="grow opacity-80"
+              >
+                Name
+              </p>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="flex h-14 w-full items-center px-4"
+        >
+          <div
+            class="mr-2 size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+           
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+        </div>
+        <div
+          data-testid="accordion-content"
+        >
+          <div
+            class="mt-2 h-4 w-1/2 animate-pulse rounded bg-border dark:bg-card"
+          />
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="flex h-14 w-full items-center px-4"
+        >
+          <div
+            class="mr-2 size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+           
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+        </div>
+        <div
+          data-testid="accordion-content"
+        >
+          <div
+            class="mt-2 h-4 w-1/2 animate-pulse rounded bg-border dark:bg-card"
+          />
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="flex h-14 w-full items-center px-4"
+        >
+          <div
+            class="mr-2 size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+           
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+        </div>
+        <div
+          data-testid="accordion-content"
+        >
+          <div
+            class="mt-2 h-4 w-1/2 animate-pulse rounded bg-border dark:bg-card"
+          />
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="flex h-14 w-full items-center px-4"
+        >
+          <div
+            class="mr-2 size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+           
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+        </div>
+        <div
+          data-testid="accordion-content"
+        >
+          <div
+            class="mt-2 h-4 w-1/2 animate-pulse rounded bg-border dark:bg-card"
+          />
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="flex h-14 w-full items-center px-4"
+        >
+          <div
+            class="mr-2 size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+           
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+        </div>
+        <div
+          data-testid="accordion-content"
+        >
+          <div
+            class="mt-2 h-4 w-1/2 animate-pulse rounded bg-border dark:bg-card"
+          />
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="flex h-14 w-full items-center px-4"
+        >
+          <div
+            class="mr-2 size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+           
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+        </div>
+        <div
+          data-testid="accordion-content"
+        >
+          <div
+            class="mt-2 h-4 w-1/2 animate-pulse rounded bg-border dark:bg-card"
+          />
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="flex h-14 w-full items-center px-4"
+        >
+          <div
+            class="mr-2 size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+           
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+        </div>
+        <div
+          data-testid="accordion-content"
+        >
+          <div
+            class="mt-2 h-4 w-1/2 animate-pulse rounded bg-border dark:bg-card"
+          />
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="flex h-14 w-full items-center px-4"
+        >
+          <div
+            class="mr-2 size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+           
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+        </div>
+        <div
+          data-testid="accordion-content"
+        >
+          <div
+            class="mt-2 h-4 w-1/2 animate-pulse rounded bg-border dark:bg-card"
+          />
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="flex h-14 w-full items-center px-4"
+        >
+          <div
+            class="mr-2 size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+           
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+        </div>
+        <div
+          data-testid="accordion-content"
+        >
+          <div
+            class="mt-2 h-4 w-1/2 animate-pulse rounded bg-border dark:bg-card"
+          />
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="flex h-14 w-full items-center px-4"
+        >
+          <div
+            class="mr-2 size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+           
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="flex-1 "
+          >
+            <div
+              class="h-4 w-3/4 animate-pulse rounded bg-border dark:bg-card"
+            />
+          </div>
+          <div
+            class="size-4 animate-pulse rounded-sm bg-border dark:bg-card"
+          />
+        </div>
+        <div
+          data-testid="accordion-content"
+        >
+          <div
+            class="mt-2 h-4 w-1/2 animate-pulse rounded bg-border dark:bg-card"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DataGrid > renders with caption and footer 1`] = `
+<div>
+  <div
+    class="bg-white dark:bg-background border border-border relative rounded-t-md shadow-lg overflow-auto "
+  >
+    <div
+      class="p-4 text-center text-lg font-semibold"
+    >
+      Test Caption
+    </div>
+    <div
+      data-testid="accordion"
+    >
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="flex h-14 w-full items-center"
+        >
+          <button
+            aria-checked="false"
+            class="peer size-[18px] shrink-0 rounded-sm border border-border ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground mr-2 dark:border-white/5"
+            data-state="unchecked"
+            role="checkbox"
+            type="button"
+            value="on"
+          />
+          <button
+            class="flex-1 font-semibold text-left flex items-center justify-between gap-2 "
+          >
+            <div
+              class="flex items-center gap-1"
+            >
+              <p
+                class="grow opacity-80"
+              >
+                ID
+              </p>
+            </div>
+          </button>
+          <button
+            class="flex-1 font-semibold text-left flex items-center justify-between gap-2 "
+          >
+            <div
+              class="flex items-center gap-1"
+            >
+              <p
+                class="grow opacity-80"
+              >
+                Name
+              </p>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="relative flex h-14 w-full items-center px-4"
+        >
+          <button
+            aria-checked="false"
+            class="peer size-[18px] shrink-0 rounded-sm border border-border ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground mr-2"
+            data-state="unchecked"
+            role="checkbox"
+            type="button"
+            value="on"
+          />
+          <div
+            class="flex-1 text-left "
+          >
+            1
+          </div>
+          <div
+            class="flex-1 text-left "
+          >
+            John Doe
+          </div>
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="relative flex h-14 w-full items-center px-4"
+        >
+          <button
+            aria-checked="false"
+            class="peer size-[18px] shrink-0 rounded-sm border border-border ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground mr-2"
+            data-state="unchecked"
+            role="checkbox"
+            type="button"
+            value="on"
+          />
+          <div
+            class="flex-1 text-left "
+          >
+            2
+          </div>
+          <div
+            class="flex-1 text-left "
+          >
+            Jane Doe
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="border-border border-t p-4"
+    >
+      <div>
+        Footer Content
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DataGrid > renders with fetching state 1`] = `
+<div>
+  <div
+    class="bg-white dark:bg-background border border-border relative rounded-t-md shadow-lg overflow-auto "
+  >
+    <div
+      data-testid="accordion"
+    >
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="flex h-14 w-full items-center"
+        >
+          <button
+            aria-checked="false"
+            class="peer size-[18px] shrink-0 rounded-sm border border-border ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground mr-2 dark:border-white/5"
+            data-state="unchecked"
+            role="checkbox"
+            type="button"
+            value="on"
+          />
+          <button
+            class="flex-1 font-semibold text-left flex items-center justify-between gap-2 "
+          >
+            <div
+              class="flex items-center gap-1"
+            >
+              <p
+                class="grow opacity-80"
+              >
+                ID
+              </p>
+            </div>
+          </button>
+          <button
+            class="flex-1 font-semibold text-left flex items-center justify-between gap-2 "
+          >
+            <div
+              class="flex items-center gap-1"
+            >
+              <p
+                class="grow opacity-80"
+              >
+                Name
+              </p>
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="relative flex h-14 w-full items-center px-4"
+        >
+          <button
+            aria-checked="false"
+            class="peer size-[18px] shrink-0 rounded-sm border border-border ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground mr-2"
+            data-state="unchecked"
+            role="checkbox"
+            type="button"
+            value="on"
+          />
+          <div
+            class="flex-1 text-left "
+          >
+            1
+          </div>
+          <div
+            class="flex-1 text-left "
+          >
+            John Doe
+          </div>
+        </div>
+      </div>
+      <div
+        data-testid="accordion-item"
+      >
+        <div
+          class="relative flex h-14 w-full items-center px-4"
+        >
+          <button
+            aria-checked="false"
+            class="peer size-[18px] shrink-0 rounded-sm border border-border ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground mr-2"
+            data-state="unchecked"
+            role="checkbox"
+            type="button"
+            value="on"
+          />
+          <div
+            class="flex-1 text-left "
+          >
+            2
+          </div>
+          <div
+            class="flex-1 text-left "
+          >
+            Jane Doe
+          </div>
+        </div>
+      </div>
+      <div
+        data-testid="loading-spinner"
+      />
+    </div>
+  </div>
+</div>
+`;

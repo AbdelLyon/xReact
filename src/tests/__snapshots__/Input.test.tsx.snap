@@ -1,0 +1,181 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Input > should match the snapshot with a password field 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="relative"
+      style="width: 100%;"
+    >
+      <input
+        class="flex h-11 w-full rounded-md border border-border bg-white dark:bg-background focus:border-outline px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:opacity-50 placeholder:text-[13px] focus-visible:outline-none focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-sm"
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+      <div>
+        <svg
+          class="lucide lucide-eye text-muted-foreground right-3 absolute"
+          fill="none"
+          height="16"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          style="top: 50%; transform: translateY(-50%);"
+          viewBox="0 0 24 24"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"
+          />
+          <circle
+            cx="12"
+            cy="12"
+            r="3"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Input > should match the snapshot with an icon 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="relative"
+      style="width: 100%;"
+    >
+      <input
+        class="flex h-11 w-full border-border bg-white dark:bg-background focus:border-outline px-3 py-2 text-[13px] ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:opacity-50 placeholder:text-[13px] focus-visible:outline-none focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 rounded border"
+        placeholder="Search"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Input > should match the snapshot with checkbox type 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="relative flex items-center gap-1"
+      style="width: 100%;"
+    >
+      <input
+        class="flex h-11 w-full rounded-md border border-border bg-white dark:bg-background focus:border-outline px-3 py-2 text-[13px] ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:opacity-50 placeholder:text-[13px] focus-visible:outline-none focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 ml-2"
+        label="I agree to the terms"
+        type="checkbox"
+        value=""
+      />
+      <label>
+        I agree to the terms
+      </label>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Input > should match the snapshot with default props 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="relative"
+      style="width: 100%;"
+    >
+      <input
+        class="flex h-11 w-full rounded-md border border-border bg-white dark:bg-background focus:border-outline px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:opacity-50 placeholder:text-[13px] focus-visible:outline-none focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-sm"
+        placeholder="Enter text"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Input > should match the snapshot with error message 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="relative"
+      style="width: 100%;"
+    >
+      <input
+        class="flex h-11 w-full rounded-md border bg-white dark:bg-background focus:border-outline px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:opacity-50 placeholder:text-[13px] focus-visible:outline-none focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-sm border-error"
+        placeholder="Enter text"
+        type="text"
+        value=""
+      />
+    </div>
+    <p
+      class="text-error mt-1 text-start"
+    >
+      This field is required
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Input > should match the snapshot with password strength indicator 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="relative"
+      style="width: 100%;"
+    >
+      <input
+        class="flex h-11 w-full rounded-md border border-border bg-white dark:bg-background focus:border-outline px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:opacity-50 placeholder:text-[13px] focus-visible:outline-none focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 text-sm"
+        placeholder="Password"
+        type="password"
+        value=""
+      />
+      <div>
+        <svg
+          class="lucide lucide-eye text-muted-foreground right-3 absolute"
+          fill="none"
+          height="16"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          style="top: 50%; transform: translateY(-50%);"
+          viewBox="0 0 24 24"
+          width="16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"
+          />
+          <circle
+            cx="12"
+            cy="12"
+            r="3"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      class="flex space-x-1 my-1 px-0.5"
+    >
+      <div
+        class="h-2 flex-1 transition-all duration-300 rounded-sm bg-error"
+      />
+      <div
+        class="h-2 flex-1 transition-all duration-300 rounded-sm bg-light dark:bg-card"
+      />
+      <div
+        class="h-2 flex-1 transition-all duration-300 rounded-sm bg-light dark:bg-card"
+      />
+      <div
+        class="h-2 flex-1 transition-all duration-300 rounded-sm bg-light dark:bg-card"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

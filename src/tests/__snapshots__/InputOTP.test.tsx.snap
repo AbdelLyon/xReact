@@ -1,0 +1,82 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`InputOTP > renders correctly with custom props 1`] = `
+<DocumentFragment>
+  <div>
+    <label
+      class="block mb-1"
+    >
+      Enter OTP
+    </label>
+    <div
+      data-testid="otp-root"
+      disabled=""
+      maxlength="4"
+    >
+      <div
+        data-testid="otp-group"
+      >
+        <input
+          data-testid="otp-slot-0"
+        />
+        <input
+          data-testid="otp-slot-1"
+        />
+      </div>
+      <div
+        data-testid="otp-group"
+      >
+        <input
+          data-testid="otp-slot-2"
+        />
+        <input
+          data-testid="otp-slot-3"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`InputOTP > renders correctly with default props 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      data-testid="otp-root"
+      maxlength="6"
+    >
+      <div
+        data-testid="otp-group"
+      >
+        <input
+          data-testid="otp-slot-0"
+        />
+        <input
+          data-testid="otp-slot-1"
+        />
+        <input
+          data-testid="otp-slot-2"
+        />
+      </div>
+      <span
+        data-testid="otp-separator"
+      >
+        -
+      </span>
+      <div
+        data-testid="otp-group"
+      >
+        <input
+          data-testid="otp-slot-3"
+        />
+        <input
+          data-testid="otp-slot-4"
+        />
+        <input
+          data-testid="otp-slot-5"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
