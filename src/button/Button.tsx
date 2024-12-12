@@ -36,7 +36,6 @@ export interface ButtonProps extends NextUIButtonProps {
 }
 
 export const Button = ({
-  variant = "solid",
   fullWidth = false,
   isLoading = false,
   isDisabled = false,
@@ -89,7 +88,6 @@ export const Button = ({
         href={href}
         rel={target === "_blank" ? "noopener noreferrer" : rel}
         target={target}
-        variant={variant}
       >
         <Content />
       </NextUIButton>
