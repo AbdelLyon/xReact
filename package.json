@@ -1,204 +1,159 @@
-{
-  "name": "@els_xefi/x-react",
-  "version": "1.0.1",
-  "type": "module",
-  "files": [
-    "dist"
-  ],
-  "description": "Xefi React Package",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AbdelLyon/xReact.git"
-  },
-  "author": "DailyApps",
-  "license": "MIT",
-  "exports": {
-    "./style.css": "./dist/style.css",
-    "./providers": {
-      "import": "./dist/providers/@els_xefi/x-react.es.js",
-      "types": "./dist/providers/index.d.ts"
-    },
-    "./button": {
-      "import": "./dist/button/@els_xefi/x-react.es.js",
-      "types": "./dist/button/index.d.ts"
-    },
-    "./utils": {
-      "import": "./dist/utils/@els_xefi/x-react.es.js",
-      "types": "./dist/utils/index.d.ts"
-    },
-    "./theme": {
-      "import": "./dist/theme/@els_xefi/x-react.es.js",
-      "types": "./dist/theme/index.d.ts"
-    },
-    "./hooks": {
-      "import": "./dist/hooks/@els_xefi/x-react.es.js",
-      "types": "./dist/hooks/index.d.ts"
-    },
-    "./card": {
-      "import": "./dist/card/@els_xefi/x-react.es.js",
-      "types": "./dist/card/index.d.ts"
-    },
-    "./typography": {
-      "import": "./dist/typography/@els_xefi/x-react.es.js",
-      "types": "./dist/typography/index.d.ts"
-    },
-    "./select": {
-      "import": "./dist/select/@els_xefi/x-react.es.js",
-      "types": "./dist/select/index.d.ts"
-    },
-    "./input": {
-      "import": "./dist/input/@els_xefi/x-react.es.js",
-      "types": "./dist/input/index.d.ts"
-    },
-    "./chart": {
-      "import": "./dist/chart/@els_xefi/x-react.es.js",
-      "types": "./dist/chart/index.d.ts"
-    },
-    "./date": {
-      "import": "./dist/date/@els_xefi/x-react.es.js",
-      "types": "./dist/date/index.d.ts"
-    },
-    "./popover": {
-      "import": "./dist/popover/@els_xefi/x-react.es.js",
-      "types": "./dist/popover/index.d.ts"
-    },
-    "./layout": {
-      "import": "./dist/layout/@els_xefi/x-react.es.js",
-      "types": "./dist/layout/index.d.ts"
-    },
-    "./sheet": {
-      "import": "./dist/sheet/@els_xefi/x-react.es.js",
-      "types": "./dist/sheet/index.d.ts"
-    },
-    "./accordion": {
-      "import": "./dist/accordion/@els_xefi/x-react.es.js",
-      "types": "./dist/accordion/index.d.ts"
-    },
-    "./modal": {
-      "import": "./dist/modal/@els_xefi/x-react.es.js",
-      "types": "./dist/modal/index.d.ts"
-    },
-    "./datagrid": {
-      "import": "./dist/datagrid/@els_xefi/x-react.es.js",
-      "types": "./dist/datagrid/index.d.ts"
-    },
-    "./toast": {
-      "import": "./dist/toast/@els_xefi/x-react.es.js",
-      "types": "./dist/toast/index.d.ts"
-    },
-    "./tabs": {
-      "import": "./dist/tabs/@els_xefi/x-react.es.js",
-      "types": "./dist/tabs/index.d.ts"
-    },
-    "./tooltip": {
-      "import": "./dist/tooltip/@els_xefi/x-react.es.js",
-      "types": "./dist/tooltip/index.d.ts"
-    },
-    "./progressbar": {
-      "import": "./dist/progressbar/@els_xefi/x-react.es.js",
-      "types": "./dist/progressbar/index.d.ts"
-    },
-    "./slider": {
-      "import": "./dist/slider/@els_xefi/x-react.es.js",
-      "types": "./dist/slider/index.d.ts"
-    }
-  },
-  "typesVersions": {
-    "*": {
-      "*": [
-        "./dist/*/index.d.ts"
-      ]
-    }
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "test": "vitest",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
-  },
-  "peerDependencies": {
-    "react": "^18",
-    "react-dom": "^18"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.7.1",
-    "@fortawesome/free-solid-svg-icons": "6.6.0",
-    "@fortawesome/react-fontawesome": "^0.2.2",
-    "@nextui-org/react": "^2.6.8",
-    "@radix-ui/react-accordion": "^1.2.1",
-    "@radix-ui/react-alert-dialog": "^1.1.2",
-    "@radix-ui/react-checkbox": "^1.1.2",
-    "@radix-ui/react-dialog": "^1.1.2",
-    "@radix-ui/react-popover": "^1.1.2",
-    "@radix-ui/react-progress": "^1.1.0",
-    "@radix-ui/react-radio-group": "^1.2.1",
-    "@radix-ui/react-select": "^2.1.2",
-    "@radix-ui/react-slider": "^1.2.1",
-    "@radix-ui/react-slot": "^1.1.0",
-    "@radix-ui/react-switch": "^1.1.1",
-    "@radix-ui/react-tabs": "^1.1.1",
-    "@radix-ui/react-toast": "^1.2.2",
-    "@radix-ui/react-tooltip": "^1.1.4",
-    "@react-types/shared": "^3.26.0",
-    "@tabler/icons-react": "^3.24.0",
-    "@tanstack/react-query": "^5.62.7",
-    "@tanstack/react-query-devtools": "5.59.14",
-    "@vitejs/plugin-react-swc": "^3.7.2",
-    "autoprefixer": "^10.4.20",
-    "chart.js": "^4.4.7",
-    "check-password-strength": "^2.0.10",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "2.1.1",
-    "cmdk": "^1.0.4",
-    "date-fns": "^3.6.0",
-    "dlx": "^0.2.1",
-    "from": "^0.1.7",
-    "import": "^0.0.6",
-    "input-otp": "^1.4.1",
-    "lucide-react": "^0.451.0",
-    "next-themes": "^0.3.0",
-    "react-chartjs-2": "^5.2.0",
-    "react-day-picker": "8.10.1",
-    "react-intersection-observer": "^9.13.1",
-    "shadcn-ui": "^0.9.4",
-    "tailwind-merge": "^2.5.5",
-    "tailwind-variants": "0.2.1",
-    "tailwindcss": "3.4.10",
-    "vaul": "^0.9.9",
-    "vite-plugin-dts": "^4.3.0",
-    "vite-tsconfig-paths": "^5.1.4"
-  },
-  "devDependencies": {
-    "@fortawesome/free-solid-svg-icons": "^6.6.0",
-    "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.1.0",
-    "@types/node": "^22.10.2",
-    "@types/react": "18.3.5",
-    "@types/react-dom": "18.3.0",
-    "@typescript-eslint/eslint-plugin": "^8.18.0",
-    "@typescript-eslint/parser": "^8.18.0",
-    "@vitejs/plugin-react": "^4.3.4",
-    "autoprefixer": "^10.4.19",
-    "eslint": "^8.57.1",
-    "eslint-config-prettier": "^8.10.0",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-jsx-a11y": "^6.10.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-react": "^7.37.2",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-refresh": "^0.4.16",
-    "eslint-plugin-tailwindcss": "^3.17.5",
-    "eslint-plugin-unused-imports": "^3.2.0",
-    "jsdom": "^25.0.1",
-    "postcss": "^8.4.49",
-    "rimraf": "^6.0.1",
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5.7.2",
-    "vite": "^5.4.11",
-    "vite-plugin-dts-bundle-generator": "^2.0.6",
-    "vite-tsconfig-paths": "^4.3.2",
-    "vitest": "^2.1.8"
-  }
+import Link from "next/link";
+import { useState } from "react";
+import { Button } from "x-react/button";
+import { IconArrowRight, IconBrandGithub } from "x-react/icons";
+import { useResponsive } from "x-react/hooks";
+
+export const CopyIcon = () => (
+
+<svg
+  className="size-5 absolute -right-2 -top-3"
+  fill="none"
+  strokeWidth="1.5"
+  stroke="currentColor"
+  viewBox="0 0 24 24"
+>
+  <path
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 01-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 011.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 00-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 01-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5a3.375 3.375 0 00-3.375-3.375H9.75"
+  />
+</svg>
+);
+
+export default function Home() {
+ const { isDesktop } = useResponsive();
+ const [copied, setCopied] = useState(false);
+ const [activeTab, setActiveTab] = useState("npm");
+
+const commands = {
+npm: (
+
+<>
+  <span className="text-orange-300">npm</span>{" "}
+  <span className="text-[#accf87]">install @xefi/x-react</span>
+</>
+), yarn: (<>
+  <span className="text-orange-300">yarn</span>{" "}
+  <span className="text-[#accf87]">add @xefi/x-react</span>
+</>
+), pnpm: (
+<>
+  <span className="text-orange-300">pnpm</span>{" "}
+  <span className="text-[#accf87]">add @xefi/x-react</span>
+</>
+), bun: (<>
+  <span className="text-orange-300">bun</span>{" "}
+  <span className="text-[#accf87]">add @xefi/x-react</span>
+</>
+), };
+
+const handleCopy = async () => {
+await navigator.clipboard.writeText(
+`${activeTab} ${activeTab === "npm" ? "install" : "add"} @xefi/x-react`
+);
+setCopied(true);
+setTimeout(() => setCopied(false), 2000);
+};
+
+return (
+
+   <div className="relative overflow-hidden w-full min-h-screen text-white">
+     <section className="flex justify-center items-center w-full mt-72">
+       <div 
+         className={`flex ${isDesktop ? 'flex-row' : 'flex-col'} justify-between items-center max-w-7xl w-full gap-10 px-6`}
+         style={{ gap: isDesktop ? '5rem' : '2.5rem' }}
+       >
+         {/* Left Section */}
+         <div className={`flex flex-col gap-6 ${isDesktop ? 'text-left' : 'text-center'} ${isDesktop ? 'w-1/2' : 'w-full'}`}>
+           <h1 className="text-6xl sm:text-5xl lg:text-6xl font-bold leading-tight">
+            <div className="flex items-center font-outfit relative w-max">
+              <span className="font-black bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 bg-clip-text text-transparent hover:scale-105 transition-transform">
+                XEFI
+              </span>
+              <span className="text-3xl font-bold dark:text-white absolute -bottom-2 -right-8">
+                Docs
+              </span>
+          </div>
+              Components Kit
+           </h1>
+           <p className="text-lg sm:text-xl text-gray-400">
+             A powerful collection of React components built for XEFI's ecosystem,
+             combining our design system with flexible customization options.
+           </p>
+           <div className={`flex gap-4 mt-4 ${isDesktop ? 'justify-start' : 'justify-center'}`}>
+             <Button
+               className="px-6 py-3 bg-[#eb7f3d] text-white rounded-lg hover:bg-[#f56d14] transition-colors flex items-center gap-2"
+               endContent={<IconArrowRight />}
+             >
+               <Link href="/getting-started">Get Started</Link>
+             </Button>
+             <Button
+               className="px-6 py-3 bg-[#2A3441] text-white rounded-lg hover:bg-[#2A3441]/90 transition-colors flex items-center gap-2"
+               startContent={<IconBrandGithub className="size-5" />}
+             >
+               <Link
+                 href="https://github.com/AbdelLyon/x-react"
+                 target="_blank"
+                 rel="noopener noreferrer"
+               >
+                 Star on Github
+               </Link>
+             </Button>
+           </div>
+         </div>
+
+         {/* Right Section - Terminal */}
+         <div className={isDesktop ? 'w-[500px]' : 'w-full'}>
+           <div className="bg-[#1E2532] rounded-lg px-3 pb-4 relative">
+             <div className="flex gap-2 justify-between">
+               <div className="flex items-center gap-2">
+                 <div className="size-3 rounded-full bg-red-500"></div>
+                 <div className="size-3 rounded-full bg-yellow-500"></div>
+                 <div className="size-3 rounded-full bg-green-500"></div>
+                 <span className="ml-2 text-sm text-gray-400">Terminal</span>
+               </div>
+               <div className="flex">
+                 {Object.keys(commands).map((pkg) => (
+                   <button
+                     key={pkg}
+                     onClick={() => setActiveTab(pkg)}
+                     className={`px-4 py-2 text-sm ${
+                       activeTab === pkg
+                         ? "text-orange-300"
+                         : "text-gray-400 hover:text-white"
+                     }`}
+                   >
+                     {pkg}
+                   </button>
+                 ))}
+               </div>
+             </div>
+             <div className="flex justify-between items-center mt-4 bg-[#1e293b] p-4 sm:p-6 rounded-lg">
+               <code className="font-mono text-sm block">
+                 {commands[activeTab]}
+               </code>
+               <div className="flex items-center justify-end">
+                 <button
+                   onClick={handleCopy}
+                   className="text-gray-400 hover:text-white transition-colors p-2 rounded relative"
+                 >
+                   {copied ? (
+                     <small className="text-[#accf87] absolute text-sm -right-2 -top-3">
+                       Copied!
+                     </small>
+                   ) : (
+                     <CopyIcon />
+                   )}
+                 </button>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+   </div>
+ );
 }
+
